@@ -1,0 +1,112 @@
+html {
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: rgb(45, 45, 45);
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.wrapper {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.settings {
+  text-align: center;
+  margin: 0 auto;
+  width: 370px;
+  border: 2px solid #f5ff9c;
+  border-radius: 20px;
+}
+
+.upperCaseLetters, .lowerCaseLetters, .numbers, .signs, .length {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.passwordLength {
+  width: 130px;
+  height: 25px;
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+  resize: none;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  outline: none;
+  background-color: rgb(45, 45, 45);
+  color: #ffffff;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  accent-color: #f5ff9c;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.generate {
+  height: 50px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.createPassword {
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  height: 50px;
+  width: 370px;
+  background-color: transparent;
+  border: 2px solid #5e9e4b;
+  border-radius: 20px;
+}
+
+.createPassword:hover {
+  background-color: #5e9e4b;
+}
+
+.output {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 500px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyWrapper {
+  width: 100px;
+}
+
+.copyPassword {
+  background-color: transparent;
+  border: none;
+}
+
+#copy {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.password {
+  color: #f5ff9c;
+}
+
+.hiden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
